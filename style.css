@@ -1,0 +1,80 @@
+html {
+    position: relative;
+    min-height: 100%;
+  }
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0;
+    background-color: hsl(0, 0%, 80%);
+}
+
+.header {
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    font-size: 2rem;
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.display {
+    display: flex;
+    gap: 60px;
+    margin: 30px 0;
+}
+
+.choices {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+#score {
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+
+.choices button{
+    font-size: 7.5rem;
+    min-width: 150px;
+    margin: 0 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: hsl(0, 0%, 90%);
+}
+
+.choices button:hover{
+    background-color: hsl(0, 0%, 80%);
+}
+
+#playerDisplay, #computerDisplay {
+    font-size: 1.75rem;
+}
+
+.footer {
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
